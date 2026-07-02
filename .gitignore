@@ -1,0 +1,77 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Linting and formatting
+.ruff_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+
+# IDE and editor
+.vscode/*
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Sample code dropped for rule extraction (AET Steward)
+scratch/
+
+# Outbound proposals returned to external projects (RETURN triage outcome).
+# May carry proprietary/company detail — never tracked in this public repo.
+.aet/
+
+proposals/
+tmp/
