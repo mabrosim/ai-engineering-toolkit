@@ -1,0 +1,25 @@
+# Relaxed markdownlint config for ai-engineering-toolkit
+# Docs: https://github.com/DavidAnson/markdownlint-cli2
+
+config:
+  # Allow long lines (prose, tables, prompt blocks)
+  MD013: false
+  # Allow inline HTML where Markdown is insufficient
+  MD033: false
+  # Allow duplicate headings under different parents (e.g. repeated "## Prompt")
+  MD024:
+    siblings_only: true
+  # Do not require first line to be a top-level heading
+  MD041: false
+  # Allow <placeholder> style angle-bracket tokens in prompt blocks
+  MD034: false
+  # Disable opinionated table pipe-spacing style ("compact" complaints)
+  MD060: false
+
+globs:
+  - "**/*.md"
+
+ignores:
+  - "**/node_modules/**"
+  - ".venv/**"
+  - "tmp/**"
