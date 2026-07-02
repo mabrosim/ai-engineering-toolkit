@@ -1,0 +1,36 @@
+# AET engine manifest — authoritative list of portable files installed by aet-install.sh.
+# One path per line, relative to the AET source root and to the install destination root.
+# Lines beginning with # are comments and are ignored by the installer.
+
+LICENSE
+agents/aet-orchestrator.agent.md
+agents/aet-engineering.agent.md
+agents/aet-validation.agent.md
+agents/aet-documentation.agent.md
+agents/aet-review.agent.md
+agents/aet-proposal.agent.md
+agents/aet-lightweight.agent.md
+agents/aet-investigator.agent.md
+instructions/ai-collaboration-rules.instructions.md
+instructions/communication-style.instructions.md
+instructions/documentation-style.instructions.md
+validation/ai-output-validation.md
+validation/code-review-rules.md
+validation/compactness-rules.md
+validation/gate-report-contract.md
+validation/markdown-quality-rules.md
+validation/nda-safety-checklist.md
+validation/public-release-checklist.md
+skills/assess-project/SKILL.md
+skills/code-review/SKILL.md
+skills/commit-message/SKILL.md
+skills/discover-workspace-file-knowledge/SKILL.md
+skills/extract-code-knowledge/SKILL.md
+skills/generate-architecture-doc/SKILL.md
+skills/generate-instruction/SKILL.md
+skills/nda-safety-review/SKILL.md
+skills/propose-improvement/SKILL.md
+skills/quality-gate/SKILL.md
+skills/review-proposal/SKILL.md
+docs/public-safety.md
+docs/philosophy.md
