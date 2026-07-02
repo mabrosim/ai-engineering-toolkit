@@ -1,0 +1,92 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Linting and formatting
+.ruff_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+
+# IDE and editor
+.vscode/*
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Sample code dropped for rule extraction (AET Steward)
+scratch/
+
+# Outbound proposals returned to external projects (RETURN triage outcome).
+# May carry proprietary/company detail — never tracked in this public repo.
+.aet/
+
+proposals/
+tmp/
+
+# Local Steward profile copies from scripts/aet-install.sh --self.
+/.github/.aet-managed-state
+/.github/.aet-managed-state.tmp.*
+/.github/agents/
+/.github/docs/
+/.github/instructions/
+/.github/skills/
+/.github/validation/
+
+/aet-bundle-v[0-9]*.[0-9]*.[0-9]*.tar.gz
+/aet-bundle-v[0-9]*.[0-9]*.[0-9]*.sha256
+/aet-bundle-v[0-9]*.[0-9]*.[0-9]*.tar.gz.cosign.bundle
+/aet-bundle-v[0-9]*.[0-9]*.[0-9]*.sha256.cosign.bundle
+/release-notes.md
